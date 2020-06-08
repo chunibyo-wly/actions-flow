@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/actions-flow/static/css/main.5f361e03.chunk.css",
+    "main.js": "/actions-flow/static/js/main.1346f99b.chunk.js",
+    "main.js.map": "/actions-flow/static/js/main.1346f99b.chunk.js.map",
+    "runtime-main.js": "/actions-flow/static/js/runtime-main.720ce3c0.js",
+    "runtime-main.js.map": "/actions-flow/static/js/runtime-main.720ce3c0.js.map",
+    "static/js/2.285e61c5.chunk.js": "/actions-flow/static/js/2.285e61c5.chunk.js",
+    "static/js/2.285e61c5.chunk.js.map": "/actions-flow/static/js/2.285e61c5.chunk.js.map",
+    "index.html": "/actions-flow/index.html",
+    "precache-manifest.7daa618e82ca3c44c45d94c3c73bf8e0.js": "/actions-flow/precache-manifest.7daa618e82ca3c44c45d94c3c73bf8e0.js",
+    "service-worker.js": "/actions-flow/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/actions-flow/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.285e61c5.chunk.js.LICENSE.txt": "/actions-flow/static/js/2.285e61c5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/actions-flow/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.720ce3c0.js",
+    "static/js/2.285e61c5.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.1346f99b.chunk.js"
+  ]
+}
