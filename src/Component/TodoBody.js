@@ -1,23 +1,17 @@
 import React from "react";
-import {List, Checkbox} from "antd";
+import {List} from "antd";
 import TodoItem from './TodoItem'
-
-const data = [
-    {
-        text: "1",
-        isDone: false
-    }
-];
 
 class TodoBody extends React.Component {
     render() {
+        let {todoList, ...others} = this.props
         return (
             <div>
                 <List
                     bordered
-                    dataSource={this.props.todoList}
-                    renderItem={(item) => (
-                        <TodoItem todoList={item}/>
+                    dataSource={todoList}
+                    renderItem={(item, index) => (
+                        <TodoItem todoList={item} index={index} {...others}/>
                     )}
                 />
             </div>

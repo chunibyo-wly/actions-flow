@@ -6,11 +6,13 @@ class TodoFooter extends React.Component {
         return (
             <Row align="middle">
                 <Col span={6}>
-                    <Checkbox>全选</Checkbox>
+                    <Checkbox checked={this.props.allChecked} onClick={this.props.changeAll}>全选</Checkbox>
                 </Col>
-                <Col span={6}>已完成1 / 全部3</Col>
+                <Col span={6}>
+                    已完成{this.props.todoDoneCount} / 全部{this.props.todoCount}
+                </Col>
                 <Col span={6} offset={6}>
-                    <Button type="primary">清除已完成任务</Button>
+                    <Button type="primary" onClick={this.props.clearDone}>清除已完成任务</Button>
                 </Col>
             </Row>
         )
