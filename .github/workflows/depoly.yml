@@ -32,7 +32,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Packages
-        run: npm install
+        run: |
+          npm cached clean --force
+          npm install
 
       - name: Deploy to GH Pages
         run: |
@@ -40,6 +42,3 @@ jobs:
           git config --global user.name ${{ secrets.NAME }}
           git remote set-url origin https://${{ secrets.ACCESS_TOKEN }}@github.com/chunibyo-wly/actions-flow.git
           npm run deploy
-
-      - name: Updating Domain
-        run: echo "Update domain"
