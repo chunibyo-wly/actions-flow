@@ -33,7 +33,7 @@ jobs:
 
       - name: Install Packages
         run: |
-          npm cached clean --force
+          npm cache clean --force
           npm install
 
       - name: Deploy to GH Pages
