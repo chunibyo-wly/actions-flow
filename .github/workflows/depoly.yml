@@ -41,4 +41,4 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
           git remote set-url origin https://${{ secrets.ACCESS_TOKEN }}@github.com/chunibyo-wly/actions-flow.git
-          npm run deploy
+          CI=false npm run deploy
